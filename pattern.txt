@@ -1,0 +1,58 @@
+1.Ans:-
+public class AlphabetPattern {
+    public static void main(String[] args) {
+        char ch;
+        for (int i = 0; i < 8; i++) {
+            ch = 'A';
+            for (int j = 0; j <= i; j++) {
+                System.out.print(ch++ + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+2.Ans:-
+public class StarTrianglePattern {
+    public static void main(String[] args) {
+        int rows = 5;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+3.Ans:-
+public class SpecialPattern {
+    public static void main(String[] args) {
+        System.out.println("#####");
+        System.out.println("#   #");
+        System.out.println("#   #");
+        System.out.println("#####");
+        System.out.println("#   #");
+        System.out.println("#   #");
+        System.out.println("#####");
+    }
+}
+4.Ans:-
+public class SkillsPattern {
+    public static void main(String[] args) {
+        System.out.println("   P   Q   R");
+        System.out.println("  P P Q Q R R");
+        System.out.println(" P   Q   R");
+        System.out.println("P    Q   R");
+        System.out.println("P    Q   R");
+    }
+}
+5.Ans:-
+public class FullNamePattern {
+    public static void main(String[] args) {
+        System.out.println("F   U   L   L   N   A   M   E");
+        System.out.println("F   U   L   L   N   A   M   E");
+        System.out.println("F   U   L   L   N   A   M   E");
+        System.out.println("F   U   L   L   N   A   M   E");
+        System.out.println("F   U   L   L   N   A   M   E");
+    }
+}
